@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "AppComponents/*": ["./src/AppComponents/*"],
+            "AppContext/*": ["./src/AppContext/*"],
+            "AppGraphql/*": ["./src/AppGraphql/*"],
+            "AppLib/*": ["./src/AppLib/*"],
+            "AppThemes/*": ["./src/AppThemes/*"],
+            "AppUtils/*": ["src/AppUtils/*"],
+            "AppHooks/*": ["./src/AppHooks/*"],
+            "AppReducers/*": ["./src/AppReducers/*"],
+            "AppStyles/*": ["./src/AppStyles/*"],
+            "AppData/*": ["./src/AppData/*"],
+            "AppServices/*": ["./src/AppServices/*"]
+        }
+    }
+}

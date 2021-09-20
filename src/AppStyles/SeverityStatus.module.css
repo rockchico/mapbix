@@ -1,0 +1,74 @@
+/* faz o botão da comarca piscar, no painel de comarcas */
+.blink {
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+/* fim seção blink_me */
+
+/* css pulse, ponto pulsante do mapa */
+.pulsate {
+	-webkit-animation-name: pulser;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: pulser;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: pulser;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+
+@-moz-keyframes pulser {  
+	0% {-webkit-transform: scale(0.0, 0.0); opacity: 0.5;}
+	50% {opacity: 0.9;}
+	100% {-webkit-transform: scale(1.9, 1.9); opacity: 0.0;}
+}
+
+@-webkit-keyframes pulser {  
+	0% {-webkit-transform: scale(0.0, 0.0); opacity: 0.5;}
+	50% {opacity: 0.9;}
+	100% {-webkit-transform: scale(1.9, 1.9); opacity: 0.0;}
+}
+
+@keyframes pulser {  
+	0% {-webkit-transform: scale(0.0, 0.0); opacity: 0.5;}
+	50% {opacity: 0.9;}
+	100% {-webkit-transform: scale(1.9, 1.9); opacity: 0.0;}
+}
+  /* css pulse, ponto pulsante do mapa */

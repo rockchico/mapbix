@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  app:
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASSWORD=${APP_PASSWORD}
+      - MAP_CENTER_LATITUDE=${MAP_CENTER_LATITUDE}
+      - MAP_CENTER_LONGITUDE=${MAP_CENTER_LONGITUDE}
+      - MAPBOX_TOKEN=${MAPBOX_TOKEN}
+      - APP_NAME=${APP_NAME}
+      - NEXTAUTH_URL=${NEXTAUTH_URL}
+      - NEXTAUTH_JWT_SECRET=${NEXTAUTH_JWT_SECRET}
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "${PORT}:${PORT}"
