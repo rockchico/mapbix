@@ -57,7 +57,7 @@
     <li>
       <a href="#Iniciando">Iniciando</a>
       <ul>
-        <li><a href="#Pré-requisito">Pré-requisito</a></li>
+        <li><a href="#Pré-requisitos">Pré-requisitos</a></li>
         <li><a href="#Instalação-Local">Instalação Local</a></li>
         <li><a href="#Instalação-via-container">Instalação via container</a></li>
       </ul>
@@ -117,7 +117,7 @@ Os principais frameworks e bibliotecas utilizados foram os seguintes:
 
 Para rodar e configurar uma cópia local da aplicação siga os seguintes passos:
 
-### Pré-requisito
+### Pré-requisitos
 
  - Antes de tudo é necessário um ambiente Zabbix. Se você não possui um ambiente funcional, uma alternativa é a utilização das [imagens Docker](https://github.com/zabbix/zabbix-docker) disponibilizadas pela própria Zabbix SIA. Um completo passo a passo da instalação e utilização pode ser vista neste [artigo](https://blog.zabbix.com/zabbix-docker-containers/7150/).
 
